@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Proza+Libre:400,400i,500,500i,600,600i,700,700i,800,800i|Roboto:300,300i,400,400i,500,500i,700,700i');
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Proza Libre', sans-serif;
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+html,
+body { height: 100% }
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #7B7B7B;
+}
+h5{
+    font-size: 16px;
+}
+a:hover { text-decoration: none }
+
+
+.section-padding{
+    padding:100px 0px;
+}
+
+.section-title {
+    text-align:  center;
+    margin-bottom: 70px;
+}
+
+.single-team-member img {
+    box-shadow: 0px 0px 10px #ddd;
+}
+
+.social-links {
+    background-color: #5FA844;
+    text-align: center;
+    padding: 5px 0px;
+    margin-left:  25px;
+    margin-right:  25px;
+    margin-top:  -25px;
+    position:  relative;
+    z-index: 2;
+}
+
+.social-links a {
+    color:  #fff;
+    display:  inline-block;
+    width:  30px;
+    height: 30px;
+    border:  1px solid #fff;
+    line-height:  30px;
+    margin:  5px;
+    border-radius:  3px;
+}
+
+.single-team-member h3 {
+    font-size:  20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.single-team-member h3 span {
+    display:  block;
+    font-size:  70%;
+    font-weight:  400;
+    color:  #5DA746;
+    margin-top: 5px;
+}

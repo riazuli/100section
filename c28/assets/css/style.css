@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Proza+Libre:400,400i,500,500i,600,600i,700,700i,800,800i|Roboto:300,300i,400,400i,500,500i,700,700i');
+a:focus,input:focus,textarea:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Proza Libre', sans-serif;
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+html,
+body { height: 100% }
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #7B7B7B;
+}
+h5{
+    font-size: 16px;
+}
+a:hover { text-decoration: none }
+
+
+.section-padding{
+    padding:100px 0px;
+}
+.footer-area {
+    background-color:  #18ADF1;
+    color: #fff;
+    padding: 80px 0px;
+}
+
+.footer-area h3,.footer-area a {
+    color: #FFF;
+}
+
+.footer-area h3 {
+    text-transform:  uppercase;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.social-link a {
+    font-size:  20px;
+    padding-right: 10px;
+}
+
+.footer-widget ul {
+    display:  block;
+    margin:  0;
+    padding:  0;
+    list-style: none;
+}
+
+.footer-widget ul li a {
+    display:  block;
+}
+
+.contact-details {
+    position:  relative;
+    padding-left: 35px;
+}
+
+.contact-details i.fa {
+    position:  absolute;
+    left:  0;
+    top: 5px;
+    font-size:  18px;
+}
+
+.footer-newsletter {
+    margin-top: 35px;
+}
+
+.footer-newsletter input[type="email"] {
+    width:  70%;
+    padding:  10px;
+    border:  none;
+    color: #000;
+}
+
+.footer-newsletter input[type="submit"] {
+    color:  #1BACEF;
+    font-weight:  700;
+    border:  none;
+    background-color:  #fff;
+    padding:  10px;
+    width: 28%;
+}
+
+.footer-newsletter form {
+    margin-bottom: 15px;
+}
+
+.copyright-area ul {
+    list-style:  none;
+    padding:  0;
+    margin: 0;
+}
+
+.copyright-area ul li {
+    display:  inline-block;
+    position:  relative;
+}
+
+.copyright-area ul li a {
+    color: #333;
+}
+
+.copyright-area ul li:after {
+    content: "|";
+    padding: 0px 10px;
+}
+
+.copyright-area ul li:last-child:after {
+    content:  none;
+}
+
+.copyright-area {
+    padding: 25px 0px;
+}

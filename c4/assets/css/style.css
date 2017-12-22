@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i');
+
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+html,
+body { height: 100% }
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #7B7B7B;
+}
+a:hover { text-decoration: none }
+
+.section-padding {
+    padding: 100px 0px;
+}
+
+.section-title h2 {
+    color: #0083FF;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.section-title h2:before {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 80px;
+    height: 4px;
+    background-color: #FFD41E;
+    content: "";
+    margin-left: -40px;
+}
+
+.section-title h2:after {
+    position: absolute;
+    content: "";
+    left: 50%;
+    bottom: 0;
+    width: 30px;
+    background-color: #00CAFF;
+    height: 4px;
+    margin-left: -15px;
+}
+
+
+
+.single-service {
+    text-align: center;
+    display: block;
+    color: #333;
+    margin-top: 20px;
+    min-height: 220px;
+
+}
+
+.single-service:hover {
+    color: #333;
+}
+
+.service-icon-wrap {
+    display: table;
+    width: 100%;
+    height: 80px;
+}
+
+.service-icon-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.single-service i {
+    font-size: 45px;
+    color: #00C5FF;
+}
+.service-content h3 {
+    font-size: 24px;
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Proza+Libre:400,400i,500,500i,600,600i,700,700i,800,800i|Roboto:300,300i,400,400i,500,500i,700,700i');
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Proza Libre', sans-serif;
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+html,
+body { height: 100% }
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #7B7B7B;
+}
+h5{
+    font-size: 16px;
+}
+a:hover { text-decoration: none }
+
+
+.section-padding{
+    padding:50px 0px;
+}
+
+.grey-bg{
+    background-color: #FAFAFA;
+}
+
+.box-img-1{background-image: url(../img/2.jpg);}
+.box-img-2{background-image: url(../img/3.jpg);}
+.box-img-3{background-image: url(../img/img-1.jpg);}
+
+
+.box-img {
+    background-color: green;
+    height: 160px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.section-title h2 {
+    font-size: 35px;
+}
+
+.section-title {
+    margin-bottom: 30px;
+}
+
+.box-content h3 {
+    font-size: 20px;
+    color: #373737;
+}
+
+.single-box {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #f1f1f1;
+    transition: 0.3s;
+}
+
+.box-content {
+    padding: 25px;
+}
+
+.see-more-btn {
+    color: #2ECC71;
+    font-weight: 700;
+    display: inline-block;
+    padding: 8px 0px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.see-more-btn:hover {
+    background-color: #2ECC71;
+    color: #fff;
+    padding: 8px 20px;
+}
+
+
+
+.see-more-btn:hover i {
+    padding-left: 5px;
+}
+
+.single-box:hover {
+    box-shadow: 0px 3px 10px #2ECC71;
+}

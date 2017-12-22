@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i|Ubuntu:300,300i,400,400i');
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 400;
+    color: #626262;
+}
+html,
+body { height: 100% }
+body {
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-weight: 400;
+    line-height: 1.714;
+}
+h5{
+    font-size: 16px;
+}
+a:hover { text-decoration: none }
+a:focus { outline: 0 solid }
+
+ .blog-img-1{background-image: url(../img/blog-img-1.jpg);}
+ .blog-img-2{background-image: url(../img/blog-img-2.jpg);} 
+ .blog-img-3{background-image: url(../img/blog-img-2.jpg);} 
+ .blog-img-4{background-image: url(../img/blog-img-2.jpg);} 
+ .blog-img-5{background-image: url(../img/blog-img-2.jpg);} 
+ .blog-img-6{background-image: url(../img/blog-img-2.jpg);} 
+ .blog-img-7{background-image: url(../img/blog-img-2.jpg);} 
+
+
+.header ul {
+    margin:  0;
+    padding:  0;
+    list-style:  none;
+}
+
+.header ul li {
+    display:  inline-block;
+    padding-left: 90px;
+}
+
+.header ul li a {color:  #616161;text-transform:  uppercase;padding: 70px 0px;display:  inline-block;}
+
+.logo a {
+    display:  inline-block;
+    padding: 65px 0px;
+}
+
+.big-blog-image {
+    width:  100%;
+    height: 525px;
+    background-size:  cover;
+    background-position: center center;
+    background-color: #ddd;
+    margin-bottom: 90px;
+}
+
+.blog-meta a {color:  #b4ad9e;text-transform: uppercase;}
+
+.blog-meta {
+    margin-bottom: 20px;
+}
+
+.blog-title,.blog-title a {
+    color: #626262;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.blog-readmore-btn {
+    color:  #b4ad9e;
+    text-transform:  uppercase;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.single-blog-content {
+    margin-bottom: 90px;
+}
+
+.blog-image {
+    display:  block;
+    width:  100%;
+    height: 280px;
+    background-size:  cover;
+    background-position:  center;
+    color: #ddd;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+.newsletter-area {
+    background-color:  #EFEFEF;
+    padding: 70px 0px;
+    color: #333333;
+    margin-bottom: 90px;
+}
+
+.newsletter-area h2 {
+    margin-bottom: 50px;
+    color: #333333;
+}
+
+.form-wrapp {
+    width: 350px;
+    margin: 0 auto;
+    border-bottom: 1px solid #333;
+    position: relative;
+}
+
+.newsletter-area input[type="email"] {
+    background:  none;
+    border:  none;
+    padding: 15px;
+    width: 100%;
+}
+
+.newsletter-area button {
+    background: none;
+    border:  none;
+    position:  absolute;
+    right:  0;
+    top: 14px;
+}
+
+.load-more-btn {
+    display:  inline-block;
+    font-size:  20px;
+    color: #626262;
+    border:  1px solid #626262;
+    padding:  13px 24px;
+    margin-top: -20px;
+}
+
+.footer {
+    background-color: #EEEEEE;
+    margin-top: 90px;
+}
+
+.footer a {
+    color: #333;
+    padding:  40px 0px;
+    display:  inline-block;
+}
+
+.footer ul {
+    padding:  0;
+    margin:  0;
+    list-style:  none;
+}
+
+.footer ul li {
+    display:  inline-block;
+    padding-right: 35px;
+}
+
+.footer ul li a {
+    display:  inline-block;
+}
+
+.social a {
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+.header ul li {
+    padding-left: 60px;
+}
+    
+}
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.header ul li {
+    padding-left: 35px;
+}
+
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    
+.header,.header .text-right {
+    text-align: center;
+}
+
+.logo a {
+    padding: 30px;
+}
+
+.header ul li {
+    padding: 10px;
+}
+
+.header ul li a {
+    font-size:  10px;
+    padding:  0;
+}
+
+.header ul {
+    text-align: center;
+}
+
+.big-blog-image {
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.form-wrapp {
+    width: 210px;
+    overflow: hidden;
+}
+
+.newsletter-area h2 {
+    font-size: 30px;
+}
+
+.newsletter-area input[type="email"] {
+    font-size: 12px;
+}
+
+.newsletter-area button {
+    top: 10px;
+}
+
+.load-more-btn {
+    margin-top: 0;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer ul li {
+    padding: 10px;
+}
+
+.footer a {
+    padding: 0;
+    font-size: 13px;
+}
+
+.social {
+    text-align: center;
+}
+
+.social a {
+    padding: 10px;
+}
+
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
+

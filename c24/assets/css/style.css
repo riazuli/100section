@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Proza+Libre:400,400i,500,500i,600,600i,700,700i,800,800i|Roboto:300,300i,400,400i,500,500i,700,700i');
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Proza Libre', sans-serif;
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+html,
+body { height: 100% }
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #7B7B7B;
+}
+h5{
+    font-size: 16px;
+}
+a:hover { text-decoration: none }
+
+
+.section-padding{
+    padding:100px 0px;
+}
+.header .logo img {
+    max-width: 70px;
+}
+
+.header ul {
+    list-style:  none;
+    padding:  0;
+    margin:  0;
+}
+
+.header ul li {
+    display: inline-block;
+}
+
+.header ul li a {
+    display:  inline-block;
+    padding:  25px;
+    padding-right: 0;
+    color:  #fff;
+    font-weight: 400;
+}
+
+.header .logo {
+    padding: 14px 0;
+}
+
+.hero {
+    background-color:  #333;
+    color: #fff;
+}
+
+.single-slide {
+    position: relative;
+}
+
+.hero-figure {
+    position:  absolute;
+    right: 80px;
+    bottom:  0;
+    max-height: 550px;
+}
+
+.hero-content {
+    padding: 160px 0px;
+}
+
+.hero-content h2 {
+    color:  #D5A129;
+    font-weight:  300;
+    font-size:  45px;
+    line-height: 1.7;
+}
+
+.hero-content {
+    font-size:  18px;
+    line-height: 1.7;
+}
+
+.boxed-btn {
+    display:  inline-block;
+    padding: 8px 20px;
+    border:  1px solid #fff;
+    border-radius:  5px;
+    color: #D6A228;
+    margin-top: 10px;
+}
+
+.header {
+    position:  absolute;
+    left:  0;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}

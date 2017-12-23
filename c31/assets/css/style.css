@@ -112,6 +112,7 @@ a.prmo-btn {
     line-height:  80px;
     font-size: 22px;
     border-radius:  50px;
+    transition: 0.3s;
 }
 
 .video-box h2 {

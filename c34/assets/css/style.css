@@ -122,11 +122,11 @@ a:hover { text-decoration: none }
 .edge-box{
     width: 0;
     height: 0;
-    border-top: 30px solid transparent;
-    border-bottom: 30px solid transparent;
-    border-left: 30px solid #1D83C5;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid #1D83C5;
     position:  absolute;
-    right:  -30px;
+    right: -20px;
     top:  25%;
     opacity: 0.6;
 }

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Proza+Libre:400,400i,500,500i,600,600i,700,700i,800,800i|Roboto:300,300i,400,400i,500,500i,700,700i');
+a:focus,input:focus,textarea:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Proza Libre', sans-serif;
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+html,
+body { height: 100%; }
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #ABABAC;
+}
+h5{
+    font-size: 16px;
+}
+a:hover { text-decoration: none }
+
+
+.section-padding{
+    padding:100px 0px;
+}
+
+.member-image{background-image: url(../img/doe.png);}
+.member-image-2{background-image: url(../img/john.png);}
+.member-image-3{background-image: url(../img/poe.png);}
+
+
+.section-title h2 {
+    position:  relative;
+    text-transform:  uppercase;
+    font-size: 38px;
+}
+
+.section-title h2:before {
+    position:  absolute;
+    right: 9px;
+    top: -35px;
+    width: 35%;
+    content:  "";
+    height: 2px;
+    background-color: #B3B3B3;
+}
+
+.section-title {
+    transform: rotate(270deg);
+    width:  400px;
+    margin-left: -140px;
+    text-align: right;
+    margin-top: 170px;
+}
+
+.member-image {
+    height:  300px;
+    background-position: center top;
+    background-size: cover;
+}
+
+.member-title {
+    text-align:  center;
+    border: 2px solid #D8D8D8;
+    margin-top: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.member-name {margin-top:  -15px;}
+
+.member-name h4 {
+    display:  inline-block;
+    background-color:  #fff;
+    padding: 0px 10px;
+    margin-bottom: 5px;
+}
+
+.member-title p {
+    margin-bottom: 25px;
+}
+
+.col-lg-4:nth-child(2) .single-member {
+    margin-top: 100px;
+}

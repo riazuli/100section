@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Proza+Libre:400,400i,500,500i,600,600i,700,700i,800,800i|Roboto:300,300i,400,400i,500,500i,700,700i');
+a:focus,input:focus,textarea:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Proza Libre', sans-serif;
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+html,
+body { height: 100%; }
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+h5{
+    font-size: 16px;
+}
+a:hover { text-decoration: none }
+
+
+.section-padding{
+    padding:100px 0px;
+}
+
+.overlay-bg-area{background-image: url(../img/painting.jpg);}
+.overlay-bg-area:before{
+    background: #211469;
+background: -moz-linear-gradient(-45deg, #211469 0%, #4c2bc6 41%, #dcb0c7 100%);
+background: -webkit-linear-gradient(-45deg, #211469 0%,#4c2bc6 41%,#dcb0c7 100%);
+background: linear-gradient(135deg, #211469 0%,#4c2bc6 41%,#dcb0c7 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211469', endColorstr='#dcb0c7',GradientType=1 );
+}
+
+.overlay-bg-area:before {
+    content:  "";
+    position:  absolute;
+    left:  0;
+    top: 0;
+    width:  100%;
+    height: 100%;
+    z-index:  -1;
+    opacity: 0.9;
+}
+
+.overlay-bg-area {
+    background-position:  center center;
+    background-size:  cover;
+    position:  relative;
+    z-index: 1;
+}
+
+.main-menu ul {
+    list-style:  none;
+    padding:  0;
+    margin:  0;
+    text-align: right;
+}
+
+.main-menu ul li {
+    display:  inline-block;
+}
+
+.main-menu ul li a {
+    color: #fff;
+    opacity: 0.7;
+    display:  inline-block;
+    padding: 32px;
+    transition: 0.3s;
+}
+
+.logo {
+    padding: 20px 0px;
+}
+
+.main-menu ul li a:hover {
+    opacity: 1;
+}
+
+img.phone {
+    position:  absolute;
+    right:  0;
+    bottom: 0;
+    max-height: 550px;
+}
+
+.hero-txt {
+    max-width:  480px;
+    color: #fff;
+    font-size:  18px;
+}
+
+.hero-txt h1 {
+    color:  #fff;
+    font-weight:  400;
+    font-size:  50px;
+    line-height: 1.1;
+}
+
+.bordered-btn {
+    border: 2px solid #fff;
+}
+
+.underline-btn {
+    text-decoration: underline;
+}
+
+.hero-btn a {
+    color:  #fff;
+    font-weight:  700;
+    padding: 7px 40px;
+    border-radius:  50px;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.hero-txt {
+    padding: 120px 0px 90px;
+}
+
+.header-area {
+    position: relative;
+    z-index: 9;
+}
+
+.header-area:before {
+    position:  absolute;
+    left:  0;
+    bottom:  0;
+    width:  100%;
+    height:  1px;
+    background-color:  #fff;
+    opacity: 0.3;
+    content: "";
+}

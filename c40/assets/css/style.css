@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Proza+Libre:400,400i,500,500i,600,600i,700,700i,800,800i|Roboto:300,300i,400,400i,500,500i,700,700i');
+a:focus,input:focus,textarea:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Proza Libre', sans-serif;
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+html,
+body { height: 100%; }
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+h5{
+    font-size: 16px;
+}
+a:hover { text-decoration: none }
+
+
+.section-padding{
+    padding:100px 0px;
+}
+.section-bg{background-image: url(../img/sky.jpg);}
+.section-bg {
+    background-size:  cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.pricing-boxes {
+    overflow:  hidden;
+    box-shadow: 0px 0px 20px #333;
+}
+
+.single-pricing-box {
+    float:  left;
+    width:  33.33333%;
+    position:  relative;
+    z-index: 1;
+}
+
+.single-pricing-box:after {
+    position:  absolute;
+    right:  0;
+    top:  0;
+    width: 1px;
+    height:  100%;
+    background-color:  #333;
+    content:  "";
+    opacity: 0.3;
+}
+.single-pricing-box:last-child:after {
+    display: none;
+}
+
+.price-image {
+    display:  table;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.image-cell {
+    display:  table-cell;
+    vertical-align: middle;
+}
+
+.price-image img {
+    max-width:  150px;
+    max-height: 120px;
+}
+
+.pricing-box-content {
+    background-color:  #fff;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.pricing-title {
+    color:  #64B5FD;
+    text-transform:  uppercase;
+    position:  relative;
+    padding-bottom:  10px;
+}
+
+.pricing-title:after {
+    position:  absolute;
+    left:  50%;
+    width:  40px;
+    bottom:  0;
+    height:  3px;
+    margin-left:  -20px;
+    content:  "";
+    background-color: #65B5FB;
+}
+
+.price {
+    font-size:  50px;
+    color:  #F65362;
+}
+
+.price span {
+    position: relative;
+    margin-left: 15px;
+}
+
+.price span:after {
+    content: "/mo";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.price span:before {
+    content:  "$";
+    font-size: 20px;
+    position:  absolute;
+    left:  -15px;
+    top: 8px;
+}
+
+.pricing-box-content ul {
+    list-style:  none;
+    padding:  0;
+    margin:  0;
+    text-align:  left;
+    padding-left: 25px;
+    margin-bottom: 35px;
+}
+
+.pricing-box-content ul li {
+    line-height: 2;
+    color:  #65B5FB;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.price-btn {
+    display: block;
+    color:  #fff;
+    background-color:  #65B5FB;
+    font-weight:  700;
+    padding: 10px;
+    font-size: 16px;
+    border-radius:  5px;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+.price-btn:hover,.price-btn.active:hover {
+    background-color:  #ddd;
+    color: #333;
+}
+
+.price-btn.active {
+    color: #fff;
+    background-color: #F65362;
+}

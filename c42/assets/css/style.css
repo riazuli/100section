@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700,700i|Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800');
+a:focus,input:focus,textarea:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+html,
+body { height: 100%; }
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+h5{
+    font-size: 16px;
+}
+font { text-decoration: none }
+
+
+.section-padding{
+    padding:100px 0px;
+}
+.product-wrapp {
+    background-color: #F0F0F0;
+    height: 290px;
+    display:  table;
+    width:  100%;
+    text-align: center;
+}
+
+.product-wrapp img {
+    max-width:  200px;
+    transition: 0.3s;
+}
+
+.product-wrapp-cell {
+    vertical-align:  middle;
+    display:  table-cell;
+}
+
+.section-title {
+    margin-bottom: 60px;
+}
+
+.section-title h2 {
+    text-transform: uppercase;
+}
+
+.single-product {
+    text-align: center;
+    position: relative;
+}
+
+.single-product h5 {
+    font-size:  20px;
+    font-weight: 400;
+    margin-top: 25px;
+    transition: 0.3s;
+    color: #333;
+}
+
+.product-price {
+    color:  #F95656;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.product-hover {
+    position:  absolute;
+    left:  0;
+    top: 0px;
+    width: 100%;
+    height: 83px;
+    text-align: left;
+    padding: 15px;
+    opacity: 0;
+    visibility:  hidden;
+    top: -30px;
+    transition: 0.3s;
+}
+
+.product-hover a {color:  #88899D;height:  50px;width: 40px;display:  inline-block;line-height:  50px;text-align: center;}
+
+.product-hover a.bordered-link {
+    border: 2px solid #F85656;
+    width: 50px;
+}
+
+.single-product:after {
+    position:  absolute;
+    left:  0;
+    top: 0;
+    width:  100%;
+    height:  100%;
+    background: url(../img/map.png)  no-repeat center center / cover;
+    background-color: #333;
+    content: "";
+    z-index: -1;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+
+.single-product:hover:after {opacity:1;height:120%; top:-10%}
+
+.single-product:hover .product-hover {
+    visibility:  visible;
+    z-index:  99;
+    opacity: 1;
+}
+
+.single-product:hover .product-wrapp {
+    background-color: #000;
+}
+
+.single-product:hover .product-wrapp img {
+    transform: scale(1.1);
+}
+
+.single-product:hover h5 {
+    color: #fff;
+}

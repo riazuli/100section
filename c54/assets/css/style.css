@@ -102,7 +102,7 @@ a:hover,a,a:focus { text-decoration: none }
     transition: 0.3s;
 }
 
-.main-menu ul li ul {
+.main-menu ul li > ul {
     position:  absolute;
     left: -100px;
     top: 64px;
@@ -138,7 +138,7 @@ a:hover,a,a:focus { text-decoration: none }
     color: #ddd;
 }
 
-.main-menu ul li:hover ul {
+.main-menu ul li:hover > ul {
     opacity:  1;
     visibility: visible;
     left: 0;
@@ -153,5 +153,6 @@ a:hover,a,a:focus { text-decoration: none }
 
 .main-menu ul li ul li ul {
     margin-left:260px;
+    top: 0;
 }
 

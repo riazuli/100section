@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i');
+a:focus,input:focus,textarea:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+html,
+body { height: 100%; }
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #888787;}
+a:hover,a,a:focus { text-decoration: none }
+
+
+.section-padding{
+    padding:70px 0px;
+}
+
+.section-title {
+    text-align:  center;
+    padding: 50px 0px;
+}
+
+.section-title  h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+h2.testimonial-title {
+    position: absolute;
+    color: #EBEAEA;
+    text-transform:  uppercase;
+    font-size: 50px;
+    z-index: 2;
+    transform: rotate(270deg);
+    left: -110px;
+    margin-top: 230px;
+}
+
+.testimonial-top img {
+    max-width: 80px;
+    margin-top: -50px;
+}
+
+.testimonial-top h3 {
+    display:  inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.testimonial-top h3 span {
+    font-size: 80%;
+    text-transform: none;
+}
+
+.tesmonial-inner {
+    text-align: center;
+    padding-top: 90px;
+}
+
+.testimonial-content {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-top: 40px;
+}
+
+.tesmonial-inner {
+    box-shadow:  0px 5px 23px #ccc;
+    padding: 70px 50px;
+}
+
+.testimonial-top {
+    padding-top: 45px;
+}
+
+ul.author-list {
+    list-style:  none;
+    margin:  0;
+    padding: 0;
+    height: 345px;
+    position: relative;
+}
+
+ul.author-list li a {
+    display:  block;
+}
+
+ul.author-list li a img {
+    width: 60px;
+    display:  inline-block;
+    margin-top:  -50px;
+    border-radius: 50%;
+}
+
+ul.author-list li a h3 {
+    display:  inline-block;
+    font-size: 20px;
+    max-width:  160px;
+    text-transform: uppercase;
+}
+
+ul.author-list li a h3 span {
+    text-transform:  none;
+    font-weight:  400;
+    font-size: 80%;
+}
+
+ul.author-list li {
+    padding-top:  20px;
+    margin-bottom: 40px;
+    opacity: 0.4;
+}
+
+ul.author-list li.active {
+    opacity: 1;
+}
+
+h2.testimonial-title:after {
+    position:  absolute;
+    right: -120px;
+    top: 50%;
+    height:  3px;
+    width: 120px;
+    background-color:  #EAE9E9;
+    content:  "";
+    z-index: 1;
+}
+
+div.ps__rail-x, div.ps__rail-y  {
+    opacity: 1;
+    display:  block;
+}

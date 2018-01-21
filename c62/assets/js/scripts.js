@@ -3,7 +3,7 @@
 
     jQuery(document).ready(function($){
 
-      $(".portfolio-list").isotope();
+        $(".portfolio-list").isotope();
 
         $(".portfolio-sorting li").on("click",function() {
 

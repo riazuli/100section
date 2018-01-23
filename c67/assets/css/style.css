@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i');
+a:focus,input:focus,textarea:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+html,
+body { height: 100%; }
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #888787;}
+a:hover,a,a:focus { text-decoration: none }
+
+.section-padding{
+    padding: 100px 0px;
+}
+
+.left-side-content{background-image: url(../img/bg.jpg);}
+
+
+.right-side-content {
+    width: 25%;
+    background-color:  #000;
+    color: #fff;
+    text-align: center;
+    height:  100%;
+    position: fixed;
+}
+
+.left-side-content {
+    width:  75%;
+    margin-left:  25%;
+    height:  100%;
+    display: table;
+    position:  relative;
+    z-index: 1;
+}
+
+.left-side-wrapp {
+    display: table-cell;
+    vertical-align:  middle;
+    color: #fff;
+}
+
+.left-side-wrapp h1 {
+    color:  #fff;
+    font-size: 60px;
+}
+
+.left-side-wrapp h1 span {
+    color: #FFB700;
+    position: relative;
+}
+
+.left-side-wrapp h1 span:after {
+    position:  absolute;
+    right: -60px;
+    bottom: 5px;
+    width: 50px;
+    height: 5px;
+    background-color:  #FFB700;
+    content:  "";
+}
+
+.boxed-btn {
+    display:  inline-block;
+    color: #333;
+    background-color:  #fff;
+    font-weight:  700;
+    font-size:  20px;
+    display:  inline-block;
+    padding:  12px  30px;
+    border-radius:  50px;
+    opacity: 0.7;
+    margin-top: 40px;
+}
+
+.left-side-wrapp {
+    padding: 5%;
+}
+
+.arrow-down i.fa {
+    color:  #fff;
+    font-size:  40px;
+    margin-top:  40px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.left-side-content:before {
+    position:  absolute;
+    left:  0;
+    top:  0;
+    width: 100%;
+    height:  100%;
+    background-color:  #000;
+    content:  "";
+    z-index:  -1;
+    opacity: 0.5;
+}
+
+.logo a {
+    color:  #fff;
+    font-size:  50px;
+    font-weight:  700;
+    display:  inline-block;
+}
+
+.logo {
+    position: relative;
+    z-index: 2;
+    margin: 50px 0px;
+}
+
+.logo:before {
+    position:  absolute;
+    left: 50%;
+    top: 50%;
+    width:  150px;
+    height:  150px;
+    background-color:  #fff;
+    content:  "";
+    border-radius:  50%;
+    margin-left:  -75px;
+    margin-top:  -75px;
+    opacity: 0.4;
+}

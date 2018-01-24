@@ -136,3 +136,45 @@ a:hover,a,a:focus { text-decoration: none }
     margin-top:  -75px;
     opacity: 0.4;
 }
+
+
+.main-menu ul {
+    list-style:  none;
+    padding:  0;
+    margin: 0;
+}
+
+.main-menu ul li a {
+    display:  inline-block;
+    color:  #fff;
+    padding: 15px;
+}
+
+.social-link a {
+    display:  inline-block;
+    color: #fff;
+}
+
+.right-footer {
+    position:  absolute;
+    bottom: 5%;
+    left:  0;
+    width:  100%;
+}
+.right-footer span {
+    color: #FFB700;
+}
+
+.main-menu {padding-top: 10%;}
+
+
+
+
+.right-side-content {
+    font-size: 16px;
+}
+
+
+.social-link a {
+    margin: 10px;
+}

@@ -128,7 +128,7 @@ img.absolute-mobile-photo {
     top: 100px;
 }
 
-.main-menu ul li.mega-menu ul {
+.main-menu ul li.mega-menu  ul {
     opacity:  1;
     visibility:  visible;
     z-index: 999;
@@ -141,7 +141,7 @@ img.absolute-mobile-photo {
     padding: 10px 7px 10px;
 }
 
-.main-menu ul li:hover .mega-menu-wrapp {
+.main-menu ul li:hover > .mega-menu-wrapp {
     visibility: visible;
     z-index:  99;
     opacity:  1;
@@ -161,5 +161,5 @@ img.absolute-mobile-photo {
     position:  relative;
     z-index:  9;
     background-color: #ffff;
-    margin-bottom: 50px;
+    margin-bottom: 127px;
 }

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Condiment');
+a:focus,input:focus,textarea:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+html,
+body { height: 100%; }
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    background-color: #fff;
+}
+
+.food-item-info h3{font-family: 'Condiment', cursive;}
+a:hover,a,a:focus { text-decoration: none }
+.section-padding{padding: 100px 0px;}
+.section-title {
+    text-align:  center;
+    margin-bottom: 40px;
+}
+
+.bride-bg img {
+    max-width:  70%;
+}
+
+.bride-bg {
+    text-align: right;
+}
+
+
+.social-links a {
+    color: crimson;
+    width: 35px;
+    height: 35px;
+    background-color:  #ccc;
+    display:  inline-block;
+    text-align:  center;
+    font-size: 17px;
+    line-height: 34px;
+    border-radius: 50px;
+    margin-bottom: 5px;
+}
+
+.bride-info {
+    border:  10px solid #ddd;
+    padding:  30px;
+    max-width: 450px;
+    position: relative;
+    margin-top:  -100px;
+    background-color:  #fff;
+    height: 280px;
+}
+
+
+.social-links {
+    width:  40px;
+    position:  absolute;
+    right: -25px;
+    top: 0;
+    height: 100%;
+    display:  table;
+}
+
+.social-link-wrapp {
+    display:  table-cell;
+    vertical-align: middle;
+}
+
+.bride-info h4 {
+    text-align:  center;
+}
+
+.right-side .bride-bg {
+    text-align: left;
+}
+
+.right-side .bride-info {
+    float: right;
+}
+
+.right-side .social-links {
+    right:  auto;
+    left: -25px;
+}

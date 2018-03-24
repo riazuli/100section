@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Condiment');
+a:focus,input:focus,textarea:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+html,
+body { height: 100%; }
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    background-color: #fff;
+}
+
+.food-item-info h3{font-family: 'Condiment', cursive;}
+a:hover,a,a:focus { text-decoration: none }
+.section-padding{padding: 100px 0px;}
+.author-bg-1{background-image: url(../img/bg1.jpg);}
+.author-bg-2{background-image: url(../img/bg2.jpg);}
+.author-bg-3{background-image: url(../img/bg3.jpg);}
+
+.single-testimonial {
+    position:  relative;
+    padding-top: 200px;
+    padding-bottom: 60px;
+}
+
+.author-txt {
+    max-width: 40%;
+}
+
+.author-bg {
+    position:  absolute;
+    right:  0;
+    top: 0;
+    width: 55%;
+    height:  100%;
+    background-size: cover;
+    background-position: center top;
+}
+
+.single-testimonial h2 {
+    position:  absolute;
+    left:  0;
+    top: 50px;
+    font-size: 66px;
+    z-index:  1;
+}
+
+.single-testimonial h2 span {
+    color: #fff;
+}
+
+.author-info i {
+    font-size:  40px;
+    color:  chocolate;
+}
+
+.author-info {
+    margin-top: 40px;
+}
+
+.author-info h3 {
+    text-transform:  uppercase;
+    margin-top:  10px;
+    margin-bottom: 5px;
+}
+
+.testimonial-wrapp .owl-nav div {
+    width:  50px;
+    height:  50px;
+    background-color:  #ddd;
+    display:  inline-block;
+    text-align:  center;
+    margin-left:  2px;
+    line-height: 50px;
+    transition: 0.3s;
+}
+
+.testimonial-wrapp .owl-nav {
+    position:  absolute;
+    left: 40%;
+    bottom:  0;
+}
+
+.testimonial-wrapp .owl-nav div:hover {
+    background-color: darkcyan;
+    color: #fff;
+}

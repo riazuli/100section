@@ -1,0 +1,114 @@
+
+@font-face {
+    font-family: 'Asiyah Script';
+    src: url('../fonts/AsiyahScript.woff2') format('woff2'),
+        url('../fonts/AsiyahScript.woff') format('woff'),
+        url('../fonts/AsiyahScript.svg#AsiyahScript') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i');
+a:focus,input:focus,textarea:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Asiyah Script';
+    margin: 0 0 15px;
+    font-weight: normal;
+    color: #333;
+}
+html,
+body { height: 100%; }
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    background-color: #fff;
+}
+
+a:hover,a,a:focus { text-decoration: none }
+
+.section-padding{padding: 100px 0px;}
+.slide-bg-1{background-image: url(../img/bg1.jpg);}
+.slide-bg-2{background-image: url(../img/bg2.jpg);}
+.slide-bg-3{background-image: url(../img/bg3.jpg);}
+
+
+.single-slide {
+    height:  100vh;
+    width:  100%;
+    display:  table;
+    background-size:  cover;
+    background-position:  center center;
+    background-color: #333;
+}
+
+.slide-table-cell {
+    display:  table-cell;
+    vertical-align: middle;
+    color: #fff;
+}
+
+.welcome-txt {
+    font-size: 20px;
+}
+
+.welcome-txt h1 {
+    font-size:  110px;
+    color: #fff;
+}
+
+.boxed-btn {
+    color:  #fff;
+    background-color:  #D8085E;
+    display:  inline-block;
+    font-size: 14px;
+    padding:  10px 30px;
+    border-radius: 3px;
+}
+
+
+.hero-slider .owl-nav div {
+    font-size: 60px;
+    position:  absolute;
+    left: 20px;
+    line-height:  60px;
+    margin-top:  -30px;
+    color: #fff;
+    top: 50%;
+}
+
+.hero-slider .owl-nav div.owl-next {
+    left:  auto;
+    right: 20px;
+}
+
+.hero-slider .owl-dots div img {
+    width:  100px;
+    height:  70px;
+    border-radius: 3px;
+}
+
+.hero-slider .owl-dots div {
+    display:  inline-block;
+    margin-right: 15px;
+}
+
+.hero-slider .owl-dots {
+    position: absolute;
+    right: 40px;
+    bottom: -35px;
+    transition: 0.3s;
+}
+
+.hero-slider .owl-dots div.active img {
+    opacity:  0.8;
+}

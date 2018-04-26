@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i');
+
+a:focus,input:focus,textarea:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+a:hover,a:focus{text-decoration: none;};
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #000;
+}
+html,
+body { height: 100%; }
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+.spacer-90{height: 90px;}
+
+
+.slide-bg-1{background-image: url(../img/hero.jpg);}
+.service-img-1{background-image: url(../img/service-1.png);}
+.service-img-2{background-image: url(../img/service-2.jpg);}
+.service-img-3{background-image: url(../img/service-3.jpg);}
+.project-bg-1{background-image: url(../img/project-1.jpg);}
+.project-bg-2{background-image: url(../img/project-2.jpg);}
+.project-bg-3{background-image: url(../img/project-3.jpg);}
+.project-bg-4{background-image: url(../img/project-1.jpg);}
+
+.header-top-area {
+    background-color:  #0A0A0A;
+    color: #fff;
+    padding: 13px;
+}
+
+.header-top-area i.fa {
+    color: #FC721E;
+}
+
+.social-links a {
+    display:  inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    border:  1px solid #fff;
+    text-align:  center;
+    border-radius: 50%;
+    margin-left: 5px;
+    transition: 0.3s;
+}
+
+.social-links a:hover{
+    background-color: #FC721E;
+    border-color: #FC721E;
+}
+
+.social-links a i.fa {
+    color: #fff;
+}
+
+.header-top-area i.fa-phone {
+    padding-left: 30px;
+}
+
+.social-links {
+    padding-left: 30px;
+}
+
+.header-top-area .fa-map-marker {
+    padding-top: 10px;
+}
+
+.site-logo {
+    font-size:  20px;
+    color: #0b0b0b;
+    text-transform:  uppercase;
+    padding: 15px 20px;
+    border: 1px solid;
+    display:  inline-block;
+    font-weight: 900;
+}
+
+.main-menu ul {
+    list-style:  none;
+    padding:  0;
+    margin: 0;
+}
+
+.main-menu ul li {
+    display:  inline-block;
+}
+
+.main-menu ul li a {
+    font-size:  14px;
+    text-transform:  uppercase;
+    color:  #0b0b0b;
+    display:  inline-block;
+    padding:  14px 18px;
+    border: 1px solid #fff;
+    font-weight: 900;
+}
+
+.main-menu ul li:hover a {border-color: #FC721E;}
+
+.header-area {
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+
+.hero-area {
+    margin-bottom: 45px;
+}
+.single-slide {
+    width:  100%;
+    height:  600px;
+    background-size:  cover;
+    background-position:  center center;
+    position:  relative;
+    z-index: 2;
+}
+
+.single-slide:before {
+    position:  absolute;
+    left:  0;
+    top: 0;
+    width:  100%;
+    height:  100%;
+    content: "";
+    background-color:  #050505;
+    opacity:  0.8;
+    z-index: -1;
+}
+
+.single-slide .d-table-cell {
+    vertical-align:  middle;
+}
+
+.welcome-text {
+    color: #fff;
+    font-size: 16px;
+}
+
+.welcome-text h1 {
+    font-size:  60px;
+}
+
+.boxed-btn {
+    background-color: #FC721E;
+    padding:  8px 30px;
+    display:  inline-block;
+    color:  #fff;
+    font-weight:  600;
+    text-transform:  uppercase;
+    border-radius: 3px;
+    border: 1px solid #FC721E;
+}
+
+.boxed-btn.bordered-btn {
+    background-color:  transparent;
+}
+
+.hero-btn {
+    padding-top: 15px;
+}
+
+.hero-area .owl-dots div {
+    height:  24px;
+    width:  2px;
+    background-color:  #fff;
+    margin-right: 7px;
+    display:  inline-block;
+}
+
+.hero-area .owl-dots {
+    width: 1110px;
+    left:  0;
+    bottom: 15px;
+    display:  block;
+    margin: 0 auto;
+    margin-top: -80px;
+    position: relative;
+    transition: 0.3s;
+}
+
+.hero-area .owl-dots div.active {
+    height: 30px;
+    background-color: #FC721E;
+}
+
+
+.section-padding {
+    padding: 90px 0px;
+}
+
+.section-padding.padding-bottom-0 {
+    padding-bottom: 0px;
+}
+
+.section-title h2 {
+    text-transform:  uppercase;
+    font-size: 30px;
+}
+
+.service-image {
+    background-color:  #ddd;
+    height:  200px;
+    background-size:  cover;
+    background-position:  center center;
+}
+
+.service-content {
+    position: relative;
+    border:  1px solid #D1CFCF;
+    padding: 15px;
+    padding-top: 50px;
+}
+
+.service-title {
+    position:  absolute;
+    top: -30px;
+    width: 100%;
+    left: 0;
+}
+
+.service-title h4 {
+    font-size:  20px;
+    background-color:  #FC721E;
+    display:  block;
+    margin:  0 auto;
+    width: 80%;
+    padding:  15px;
+    color: #fff;
+}
+
+.single-service {
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.service-btn {
+    color:  #333;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+.service-btn:hover {
+    color: #FC721E;
+}
+
+.single-service:hover {
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+
+.bordered-image {
+    position: relative;
+}
+
+.bordered-image:before,.bordered-image:after {
+    position:  absolute;
+    left: -3px;
+    top: 15%;
+    height:70%;
+    width: 3px;
+    content: "";
+    background-color: #FC721E;
+}
+
+.bordered-image:after {
+    left:  auto;
+    right: -3px;
+}
+
+.about-text {
+    padding: 50px 0px;
+}
+
+.about-text h4 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.cta-area h4 {
+    font-size: 20px;
+    margin: 6px 0px;
+    color: #fff;
+    text-transform:  uppercase;
+}
+
+.cta-area {
+    background-color: #FC721E;
+    padding: 55px 0px;
+}
+
+.cta-area .boxed-btn {
+    background-color:  #fff;
+    color: #333;
+}
+
+.single-project {
+    position:  relative;
+    padding-left:  260px;
+    padding-top:  70px;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+}
+
+.project-bg {
+    background-color:  #ddd;
+    background-position:  center center;
+    background-size:  cover;
+    width: 230px;
+    position:  absolute;
+    left:  0;
+    top: 0;
+    height: 100%;
+}
+
+.single-project h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.inline-btn {
+    color: #333;
+}
+
+.inline-btn i.fa {
+    padding-left: 5px;
+}
+
+.project-bg:before {
+    position:  absolute;
+    left: 0;
+    top: 0;
+    width:  100%;
+    height:  100%;
+    background-color:  #333;
+    content:  "";
+    visibility:  hidden;
+    opacity:  0;
+    transition: all 0.3s ease;
+}
+
+.single-project:hover .project-bg:before {
+    visibility:  visible;
+    opacity: 1;
+}
+
+.single-project:hover h4,.single-project:hover .inline-btn {
+    color: #FC721E;
+}
